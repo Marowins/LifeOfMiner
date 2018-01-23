@@ -1,0 +1,2 @@
+# LifeOfMiner
+Personal Project / Clicker
