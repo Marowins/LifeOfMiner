@@ -142,7 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7630e5b4d2dde43089fcd319f5534f36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jud: 0
+  Ore: {fileID: 963183751}
+  jud: 1
 --- !u!61 &316749928
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -223,7 +224,7 @@ Transform:
   m_LocalScale: {x: 3, y: 6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &707790946
 GameObject:
@@ -325,7 +326,6 @@ GameObject:
   - component: {fileID: 963183748}
   - component: {fileID: 963183751}
   - component: {fileID: 963183753}
-  - component: {fileID: 963183750}
   m_Layer: 0
   m_Name: SkullStone
   m_TagString: Untagged
@@ -388,19 +388,8 @@ Transform:
   m_LocalScale: {x: 0.18, y: 0.18, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963183750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 963183747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aace0d0c4161c4eaaa15253d78395704, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &963183751
 Animator:
   serializedVersion: 3
