@@ -6,6 +6,7 @@ public class TouchManager : MonoBehaviour {
 
 	// require Animator
 	public Animator Ore;
+	public AudioSource Hit;
 
 	// jud variable
 	public bool jud = true;
@@ -19,6 +20,7 @@ public class TouchManager : MonoBehaviour {
 				Ore.SetInteger ("JUDGE", -1);
 				jud = true;
 			}
+			Hit.Play ();
 		} else {
 			Ore.SetInteger ("JUDGE", 0);
 		}
